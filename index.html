@@ -15,29 +15,85 @@
 <body>
     
 
-<nav class="navbar navbar-expand-lg navbar-light bg-faded">
-    <a class="navbar-brand" href="#">My Site</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNav" aria-controls="MyNav" aria-expanded="false">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="MyNav">
-        <ul class= "navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                 <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                 <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <a class="navbar-brand" href="#">My Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNav" aria-controls="MyNav" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="MyNav">
+            <ul class= "navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn btn-success btn-lg btn-block" href="https://www.youtube.com/watch?v=TJL4Y3aGPuA" target="_blank">
+                    Click here to win £1000!</a>
+                <a class="btn btn-outline-primary btn-sm" href="#">Read out policies here</a>
+                <br/> <br />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <h3>Sidebar</h3>
+            </div>
+            <div class="col-sm-6 col-md-8 col-lg-10">
+                <form>
+                    <div class="form-group">
+                        <label for="emailInput">Email Address</label>
+                        <input class="form-control" type="email" id="emailInput" aria-describedby="emailHelp" placeholder="Enter Email"/>
+                        <small id="emailHelp" class="form-text text-muted">This is the address of your email...</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input class="form-control" id="nameInput" placeholder="Enter Name"/>
+                    </div>
+
+                    <label for="selectInput">Type</label>
+                    <select class="form-control">
+                        <option>Website Downtime</option>
+                        <option>Custon Coding</option>
+                        <option>This form doesn't work</option>
+                    </select>
+
+                    <br />
+
+                    <label for="messageText">Message</label>
+                    <textarea class="form-control" id="messageText" placeholder="Enter Message here" rows="12"></textarea>
+                    
+                    <br />
+
+                    <div class="form-check">
+                        <label for="form-check-label">
+                            <input class="form-check-input" type="checkbox" />
+                            Check this box out boi
+                        </label>
+                    </div>
+                    <br />
+
+                    <button class="btn btn-info">Send</button>
+                </form>
+            </div>
+        </div>
     </div>
 
-</nav>
 
-<h1>Hello World</h1>
+ 
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
